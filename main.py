@@ -8,7 +8,7 @@ print("\n Digite en el siguiente formato (x-y)...")
 x, y = (input(" >>> Digite cordenadas (x, y): ")).split("-")
 
 while True:
-    opc = input("\n >>> ")
+    opc = input("\n >>> Digite un Comando: ")
     
     if opc == "1":
         txt = "Hola Mundo!"
